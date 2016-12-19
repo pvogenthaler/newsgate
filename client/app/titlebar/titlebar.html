@@ -48,12 +48,18 @@
 
 
 </div>
-<center><h3>Top Keywords</h3></center><br>
-<div ng-include="'/app/bubble/bubble.html'"></div>
-<center><h3>Weekly Trend Status of Top Keyword</h3></center><br>
-<center><div ng-include="'/app/trends/trends.html'"></div></center>
-<center><h3>Top Related Tweets</h3></center>
-<div ng-include="'/app/tweets/tweets.html'"></div>
+<div class="topKeywords">
+  <center><h3>Top Keywords</h3></center><br>
+  <div ng-include="'/app/bubble/bubble.html'"></div>
+</div>
+<div class="topKeyword">
+  <center><h3>Weekly Trend Status of Top Keyword</h3></center><br>
+  <center><div ng-include="'/app/trends/trends.html'"></div></center>
+</div>
+<div class="relatedTweets">
+  <center><h3>Top Related Tweets</h3></center>
+  <div ng-include="'/app/tweets/tweets.html'"></div>
+</div>
 
 
 </div>

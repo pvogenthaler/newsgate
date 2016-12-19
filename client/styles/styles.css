@@ -252,3 +252,14 @@ b.ng-binding {
   border-radius: 5px;
   padding: 5px;
 }
+
+.topKeywords, .topKeyword, .relatedTweets {
+  margin: 20px auto;
+  width: 75%;
+  border: solid 2px;
+  padding: 10px;
+}
+
+.topKeyword {
+  padding-bottom: 30px;
+}
